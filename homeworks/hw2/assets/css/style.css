@@ -38,12 +38,22 @@ div {
     margin-right: 30px;
     border-radius: 50%;
 }
+
+#second-row .circle:hover{ 
+    transform: scale(1.25)
+}
 .square {
     width: 60px;
     height: 60px;
-    background: white;
+    background:#e67e22;
     display: inline-block;
     margin-right: 30px;
+}
+.square:hover {
+    opacity: 0.5;
+}
+.circle:hover {
+    opacity: 0.5;
 }
 .row {
     margin-bottom: 30px;
@@ -51,8 +61,18 @@ div {
 .green {
     background: #78c272;
 }
+.red {
+    background: #de6868;
+}
+.blue {
+    background: #6392c0;
+}
 .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
+    border-style: dotted;
     width: 54px;
     height: 54px;
+}
+.disappear {
+    opacity: 0;
 }
