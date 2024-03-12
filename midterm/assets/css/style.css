@@ -276,3 +276,7 @@ main::after {
 .bottom-logo img {
     max-width: 100px;
 }
+
+.left-column_1 {
+    text-align: justify;
+}
