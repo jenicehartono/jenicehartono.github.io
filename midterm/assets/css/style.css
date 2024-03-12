@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:'Raleway', sans-serif;
+    background: linear-gradient(to bottom, #001624, #14616D);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.pill-button {
+    background-color: white;
+    color: #001624;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pill-button:hover {
+    background-color: #E1552A;
+    color: white;
+}
+
+nav.side-nav {
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 120px;
+    bottom: 0;
+    left: 0;
+}
+
+.side-nav ul {
+    list-style-type: none;
+    padding: 30px;
+}
+
+.side-nav ul li {
+    margin-bottom: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.side-nav ul li:hover {
+    text-decoration: underline;
+    color: #E1552A;
+}
+
+.side-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.side-nav ul li:hover a {
+    text-decoration: underline;
+    color: #E1552A;
+}
+
+main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.home-image img {
+    max-width: 80%;
+    border-radius: 15px;
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+}
+
+.coffee-image {
+    top: 400px;
+    left: 0;
+    width: 180px;
+}
+
+.coffee-image img {
+    max-width: 100%;
+}
+
+.bottom-text {
+    margin-left: 150px;
+}
+
+.text-content {
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+.est-date {
+    color: #E1552A;
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+/* store page code starts here */ 
+
+.product-classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-classes_box {
+    width: 30%;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-classes_box_name {
+    text-align: center;
+}
+
+.product-classes_box_name:hover h2 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.product-classes_box_image {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-classes_box_image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-classes_box_6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.product-classes_box_controls_button_1 {
+    background-color: #E1552A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.product-classes_box_controls_button_2 {
+    background-color: #E1552A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.product-classes_box_controls_button_3 {
+    background-color: #E1552A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.product-classes_box_controls_button_4 {
+    background-color: #E1552A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.product-classes_box_controls_button_5 {
+    background-color: #E1552A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.product-classes_box_controls_button_1:hover {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.product-classes_box_controls_button_2:hover {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.product-classes_box_controls_button_3:hover {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.product-classes_box_controls_button_4:hover {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.product-classes_box_controls_button_5:hover {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+/* company page code starts here */ 
+
+.roasting-text {
+    color: #E1552A;
+    font-style: italic;
+    font-stretch: semi-expanded;
+    padding-right: 15px;
+}
+
+.left-column_1,
+.right_column_1 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right_column_1 img {
+    border-radius: 20px;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.bottom-logo {
+    text-align: center;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+
+.bottom-logo img {
+    max-width: 100px;
+}
