@@ -277,6 +277,6 @@ main::after {
     max-width: 100px;
 }
 
-.left-column_1 {
+.left-column_1 p {
     text-align: justify;
 }
