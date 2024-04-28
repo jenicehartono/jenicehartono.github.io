@@ -1,0 +1,210 @@
+/*HOME PAGE*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to bottom right, #FFFFFF, #C8D9EF);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+.gallery {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+}
+
+.image-container {
+    display: inline-block;
+    margin-right: 20px;
+    max-width: 370px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+    white-space: normal;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contact-item {
+    display: flex; 
+    align-items: center; 
+    margin-right: 20px; 
+}
+
+footer .contact-item img {
+    width: 20px; 
+    height: 20px;
+    margin-right: 5px; 
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: black; 
+}
+
+/*ABOUT PAGE*/
+
+.vision-section {
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.vision-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.vision-subtitle {
+    font-size: 30px;
+    font-style: italic;
+    color: #203D64;
+    margin-top: 3px;
+}
+
+.mission-section {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+.mission-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.mission-subtitle {
+    font-size: 25px;
+    font-style: italic;
+    color: #203D64;
+    margin-top: 3px;
+}
+
+.challenges-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+    margin-bottom: 60px;
+}
+
+.challenge-box {
+    flex: 1;
+    margin: 0 12.5px;
+    padding: 20px 15px;
+    background-color: #203D64;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.challenge-list {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*PROJECTS PAGE*/ 
+
+.projects {
+    text-align: center;
+}
+
+.project-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.projects img {
+    max-width: 58%; 
+    max-height: 55%; 
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    font-size: 18px;
+    background-color: #203D64;
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #8DB0DE;
+}
